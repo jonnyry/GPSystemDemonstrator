@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openHealthRecord xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.e-mis.com/emisopen">
+  <id>b4022034-7559-4426-a28f-95872ab6a504</id>
+  <creationTime>2010-06-24T00:00:00+01:00</creationTime>
+  <author>
+    <system>
+      <systemType>EMISWEB</systemType>
+    </system>
+    <organisation>a8063fdf-dfa6-406d-a296-dfb9730c801f</organisation>
+  </author>
+  <contentSpecification>
+    <specification>37241000000102</specification>
+  </contentSpecification>
+  <adminDomain>
+    <person updateMode="add">
+      <id>b4022034-7559-4426-a28f-95872ab6a504</id>
+      <birthDate>1966-12-12</birthDate>
+      <sex>M</sex>
+      <forenames>Caleb</forenames>
+      <callingName>Caleb</callingName>
+      <surname>Ricardo</surname>
+      <title>Mr</title>
+      <address updateMode="add">
+        <id>d47819c7-d3a8-456e-855a-2cd12d605d88</id>
+        <postCode>LS19 6JN</postCode>
+        <houseNameFlat />
+        <street>17 Southlands Avenue</street>
+        <village>Rawdon</village>
+        <town>Leeds</town>
+        <county>West Yorkshire</county>
+      </address>
+    </person>
+    <person updateMode="add">
+      <id>725b79bc-36b1-408c-ae56-771b6b5d079e</id>
+      <sex>U</sex>
+      <forenames>Prince</forenames>
+      <surname>Ted</surname>
+      <title>Dr</title>
+    </person>
+    <patient updateMode="add">
+      <id>b4022034-7559-4426-a28f-95872ab6a504</id>
+      <patientIdentifier updateMode="add">
+        <identifierType>NHS</identifierType>
+        <value>8995136022</value>
+      </patientIdentifier>
+      <patientPerson>b4022034-7559-4426-a28f-95872ab6a504</patientPerson>
+      <registeredGPUserInRole>725b79bc-36b1-408c-ae56-771b6b5d079e</registeredGPUserInRole>
+      <usualGPUserInRole>725b79bc-36b1-408c-ae56-771b6b5d079e</usualGPUserInRole>
+      <confidentialityPolicy>c3e9519b-65d4-443a-8bba-0329a9554fab</confidentialityPolicy>
+      <caseloadPatient updateMode="add">
+        <id>b4022034-7559-4426-a28f-95872ab6a504</id>
+        <organisation>a8063fdf-dfa6-406d-a296-dfb9730c801f</organisation>
+        <dateRecorded>1999-12-04T00:00:00</dateRecorded>
+        <patientStatus>
+          <status>6</status>
+          <caseloadStatus>REG</caseloadStatus>
+        </patientStatus>
+        <patientType dummy="false" userDefined="false">REG</patientType>
+        <property updateMode="add">
+          <name>FZ</name>
+          <value>0</value>
+        </property>
+        <emisPatientNumber>4284</emisPatientNumber>
+      </caseloadPatient>
+    </patient>
+    <organisation updateMode="add">
+      <id>a8063fdf-dfa6-406d-a296-dfb9730c801f</id>
+      <name>Bravo Surgery</name>
+      <organisationType codeSystem="2.16.840.1.113883.2.1.6.2" displayName="General Practice" code="" />
+      <speciality codeSystem="2.16.840.1.113883.2.1.6.2" displayName="General Medical Practice" code="" />
+      <cdb>60200</cdb>
+      <nationalPracticeCode>B99999</nationalPracticeCode>
+      <mainLocation>b0dc90dd-ba48-4d12-88d9-f364a707dfef</mainLocation>
+      <locations updateMode="add">
+        <location>b0dc90dd-ba48-4d12-88d9-f364a707dfef</location>
+      </locations>
+      <parentOrganisation>c1fbd6db-5665-4426-9dda-18c35489c927</parentOrganisation>
+      <openDate>2008-12-07T17:10:38.013</openDate>
+    </organisation>
+    <organisation updateMode="add">
+      <id>0ce2ac0c-1497-4625-91a5-786daed4cdef</id>
+      <name>National</name>
+      <organisationType codeSystem="2.16.840.1.113883.2.1.6.2" displayName="EMIS" code="" />
+      <openDate>2006-11-26T00:00:00</openDate>
+    </organisation>
+    <organisation updateMode="add">
+      <id>54488824-51b9-4ad4-a03c-85fe304e936a</id>
+      <name>National Health Service</name>
+      <organisationType codeSystem="2.16.840.1.113883.2.1.6.2" displayName="National Health Service" code="" />
+      <parentOrganisation>0ce2ac0c-1497-4625-91a5-786daed4cdef</parentOrganisation>
+      <openDate>2006-01-01T00:00:00</openDate>
+    </organisation>
+    <organisation updateMode="add">
+      <id>fddd977b-b2fc-4b55-92f6-c36c8e24d6ed</id>
+      <name>Leeds PCT</name>
+      <organisationType codeSystem="2.16.840.1.113883.2.1.6.2" displayName="Primary Care Trust" code="" />
+      <cdb>89600</cdb>
+      <nationalPracticeCode>5N1</nationalPracticeCode>
+      <parentOrganisation>3299c44c-c3ae-48a4-9470-64b00d9018b3</parentOrganisation>
+      <openDate>2006-10-01T00:00:00</openDate>
+    </organisation>
+    <organisation updateMode="add">
+      <id>86d140f2-d671-4d50-b9b8-81cae27e4ec5</id>
+      <name>Yorkshire and The Humber Strategic Health Authority</name>
+      <organisationType codeSystem="2.16.840.1.113883.2.1.6.2" displayName="Strategic Health Authority" code="" />
+      <nationalPracticeCode>Q32</nationalPracticeCode>
+      <mainLocation>bf7c0441-e638-457a-ac1a-0b4d7b9ee72f</mainLocation>
+      <locations updateMode="add">
+        <location>bf7c0441-e638-457a-ac1a-0b4d7b9ee72f</location>
+      </locations>
+      <parentOrganisation>54488824-51b9-4ad4-a03c-85fe304e936a</parentOrganisation>
+      <openDate>2006-07-01T00:00:00</openDate>
+    </organisation>
+    <location updateMode="add">
+      <id>b0dc90dd-ba48-4d12-88d9-f364a707dfef</id>
+      <name>Bravo Surgery</name>
+      <locationType codeSystem="2.16.840.1.113883.2.1.6.2" displayName="Main Surgery" code="" />
+      <notes />
+      <openDate>2009-04-03T15:54:57.88</openDate>
+      <address>
+        <id>7755d1ab-2896-4ecf-8ec0-b579ab5f1d83</id>
+        <postCode>LS12 1DX</postCode>
+        <houseNameFlat />
+        <street>101 Wellington Road</street>
+        <village />
+        <town>Leeds</town>
+        <county>West Yorkshire</county>
+      </address>
+      <contact updateMode="add">
+        <id>b0dc90dd-ba48-4d12-88d9-f364a707dfef</id>
+        <contactType>W</contactType>
+        <value>02561230886</value>
+      </contact>
+    </location>
+    <location updateMode="add">
+      <id>bf7c0441-e638-457a-ac1a-0b4d7b9ee72f</id>
+      <name>Yorkshire and The Humber Strategic Health Authority</name>
+      <locationType codeSystem="2.16.840.1.113883.2.1.6.2" displayName="Strategic Health Authority" code="" />
+      <notes />
+      <openDate>2006-07-01T00:00:00</openDate>
+      <address>
+        <id>62fbca3c-f27f-436c-bee3-212e69512ebe</id>
+        <postCode>LS15 4JU</postCode>
+        <houseNameFlat />
+        <street>11A Wendel Avenue</street>
+        <village>Barwick in Elmet</village>
+        <town>Leeds</town>
+        <county>West Yorkshire</county>
+      </address>
+    </location>
+    <user updateMode="add">
+      <id>725b79bc-36b1-408c-ae56-771b6b5d079e</id>
+      <userPerson>725b79bc-36b1-408c-ae56-771b6b5d079e</userPerson>
+      <mnemonic>PT</mnemonic>
+      <loginName>PT</loginName>
+      <active>false</active>
+    </user>
+    <role updateMode="add">
+      <id>d288966c-8d12-4882-bea2-f0ab250a563c</id>
+      <name>Principal</name>
+      <userCategory codeSystem="2.16.840.1.113883.2.1.6.2" displayName="General Medical Practitioner" code="" />
+      <organisation>a8063fdf-dfa6-406d-a296-dfb9730c801f</organisation>
+      <confidentialityPolicy>c3e9519b-65d4-443a-8bba-0329a9554fab</confidentialityPolicy>
+    </role>
+    <userInRole updateMode="add">
+      <id>725b79bc-36b1-408c-ae56-771b6b5d079e</id>
+      <user>725b79bc-36b1-408c-ae56-771b6b5d079e</user>
+      <role>d288966c-8d12-4882-bea2-f0ab250a563c</role>
+      <contractualRelationship>E</contractualRelationship>
+      <contractStart>2004-01-28</contractStart>
+      <filingConfidentialityPolicy>c3e9519b-65d4-443a-8bba-0329a9554fab</filingConfidentialityPolicy>
+      <userIdentifier updateMode="add">
+        <identifierType>NAT</identifierType>
+        <value>G4327798</value>
+      </userIdentifier>
+      <userIdentifier updateMode="add">
+        <identifierType>PRES</identifierType>
+        <value>432779</value>
+      </userIdentifier>
+      <userIdentifier updateMode="add">
+        <identifierType>GP</identifierType>
+        <value>4477693</value>
+      </userIdentifier>
+    </userInRole>
+    <confidentialityPolicy updateMode="add">
+      <id>c3e9519b-65d4-443a-8bba-0329a9554fab</id>
+      <name>Unrestricted</name>
+      <notificationType>NO</notificationType>
+      <showHiddenRecordIndicator>false</showHiddenRecordIndicator>
+      <organisation>0ce2ac0c-1497-4625-91a5-786daed4cdef</organisation>
+      <restrictToOrganisation>false</restrictToOrganisation>
+    </confidentialityPolicy>
+  </adminDomain>
+  <healthDomain />
+</openHealthRecord>
