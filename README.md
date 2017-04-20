@@ -1,4 +1,4 @@
-# Endeavour Health Charity Trust
+# Endeavour Health Charitable Trust
 ## GP System Demonstrator
 
-A basic GP System written in .NET
+A GP System demonstrator application, including mock API, written in .NET
