@@ -1,4 +1,4 @@
-![Endeavour Logo](http://www.endeavourhealth.org/Content/Images/logo_text.png)
+![Endeavour Logo](http://www.endeavourhealth.org/github/logo-text-left-cropped.png)
 
 ## GP System Demonstrator
 
