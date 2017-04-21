@@ -1,6 +1,6 @@
-![Endeavour Logo](http://www.endeavourhealth.org/github/logo-text-left-cropped.png)
+![Endeavour Logo](http://www.endeavourhealth.org/github/logo-text-small-left-cropped.png)
 
-### GP System Demonstrator
+## GP System Demonstrator
 
 A simple GP System demonstrator application, including mock API, written in .NET.
 
