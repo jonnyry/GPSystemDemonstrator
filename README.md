@@ -2,6 +2,6 @@
 
 ### GP System Demonstrator
 
-A GP System demonstrator application, including mock API, written in .NET
+A simple GP System demonstrator application, including mock API, written in .NET.
 
 ![Screenshot](http://www.endeavourhealth.org/github/gp-demonstrator-screenshot.png)
